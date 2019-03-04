@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  font-family: Signika;
 }
 
 img {
@@ -18,37 +19,88 @@ ul li {
 }
 
 #div1 {
-background-color: #55c0ec;
-min-height: 600px;
+  background-color: #55c0ec;
+  min-height: 600px;
+}
+
+#div1a {
+  display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column; /* column | row */
+}
+
+#div1b {
+  display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column; /* column | row */
+}
+
+#ticky-robot {
+  height:400px;
+  width: 400px;
 }
 
 #div2 {
-background-color: white;
-min-height: 400px;
+  background-color: white;
+  min-height: 400px;
+}
+
+#div2a {
+  text-align: center;
+
 }
 
 #div3 {
-background-color: #90ddaa;
-min-height: 400px;
+  background-color: #90ddaa;
+  min-height: 400px;
 }
 
 #div3a {
-text-align: center;
+  text-align: center;
 }
 
 #div4 {
-background-color: white;
-min-height: 500px;
+  position: relative;
+  background-color: white;
+  min-height: 500px;
+  display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column; /* column | row */
+}
+
+#slack-logo-button {
+  height:50px;
+  width:50px;
 }
 
 #back-to-top {
   float:right;
+  position:absolute;
+  right:0;
+  bottom:0;
+  border: 1px solid black;
+  width: 32px;
+  height: 32px;
 }
 
 #footer {
   background-color: #40596b;
   text-align: center;
   min-height: 100px;
+  color:grey;
+}
+
+#slack-button {
+  width:200px;
+  height:100px;
+  align-self: center;
+}
+
+#slack-button:hover {
+  background-color: #C1E4F2;
 }
 
 
