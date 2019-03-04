@@ -6,22 +6,29 @@ img {
   width:300px;
   height:300px;
 }
+ul li {
+  color: #ffd05a;
+}
 
 #header {
   background-color: #40596b;
   text-align: center;
+  height: 62px;
 }
 
 #div1 {
 background-color: #55c0ec;
+min-height: 600px;
 }
 
 #div2 {
 background-color: white;
+min-height: 400px;
 }
 
 #div3 {
 background-color: #90ddaa;
+min-height: 400px;
 }
 
 #div3a {
@@ -30,12 +37,15 @@ text-align: center;
 
 #div4 {
 background-color: white;
+min-height: 500px;
 }
 
 #footer {
   background-color: #40596b;
   text-align: center;
+  min-height: 100px;
 }
+
 
 .italics {
   font-style: italic;
