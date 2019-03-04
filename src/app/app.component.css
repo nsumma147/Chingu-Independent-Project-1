@@ -41,6 +41,10 @@ background-color: white;
 min-height: 500px;
 }
 
+#back-to-top {
+  float:right;
+}
+
 #footer {
   background-color: #40596b;
   text-align: center;
